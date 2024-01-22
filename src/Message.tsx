@@ -1,4 +1,7 @@
 function Message(){
-    return <h1> this will serve as a tuto for my github app  </h1>;
+    const name = 'Farouk'
+    if (name)
+        return <h1> hello  {name} </h1>;
+    return <h1>Hello World</h1>
 }
 export default Message;
